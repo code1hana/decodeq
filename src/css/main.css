@@ -130,3 +130,154 @@ a {
         display: flex;
     }
 }
+
+.home-main-first {
+    height: 120vh;
+}
+
+.randing-page-img {
+    z-index: 2;
+}
+
+.main-banner {
+    width:100%
+}
+
+.randing-page-contents {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;  
+    margin-top:-50rem;
+}
+
+.randing-page-txt {
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 12.5rem;
+    color: white;
+}
+
+.main-h1 {
+    font-size: 2.375rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-p {
+    font-size: 1.563rem;
+    font-weight: 400;
+    padding-bottom: 1.25rem;
+}
+
+.rabbit {
+    z-index: 3;
+}
+
+.home-main-second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.thumbnail {
+    width: 31.25rem;
+    padding: 0.625rem;
+}
+
+.home-main-third {
+    margin:auto; 
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lecture-header-txt {
+    display: flex; 
+    flex-direction: column;
+}
+
+.lecture-header-img {
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+
+.lecture-banner {
+    width: 100%;
+}
+
+.lecture-contents {
+    margin-top: -6.25rem; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.codehabaplay-block {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    width:18.75rem; 
+    height:18.75rem; 
+    padding: 0.625rem;
+}
+
+.temporary {
+    position: relative;
+    z-index:-1; 
+    width: 18.75rem; 
+    border-radius: 1rem;
+}
+
+.badge-block {
+    position: relative;
+    z-index: 3;
+    margin-top: -23.438rem;
+}
+
+.codehabaplay-txt {
+    position: absolute;
+}
+
+.main-lecture-p {
+    padding: 1.25rem;
+    margin: auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    background-color: white;
+    font-size: 1.25rem;
+}
+
+.home-main-last {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 8.75rem; 
+    padding-right: 8.75rem;
+    height: 100vh;
+}
+
+.work-header-txt {
+    display: flex; 
+    flex-direction: column;
+}
+
+.work-instagram {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    display: block;
+}
+
+.footer-back {
+    width: 100%;
+}
