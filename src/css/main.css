@@ -1,0 +1,132 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7.5rem 0 7.5rem;
+    z-index: 5;
+    font-size: 1.25rem;
+}
+
+.nav-logo {
+    font-family: 'Changa One', cursive;
+    font-weight: 900;
+    font-size: 2.25rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.nav-menu li {
+    font-weight: bold;
+    padding-right: 3.75rem;
+}
+
+.nav-menu a {
+    position: relative;
+}
+
+.nav-menu li a::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    bottom: -0.625rem;
+    left: 0%;
+    width: 0;
+    height: 0.25rem;
+    background: #6990df;
+    transform: translateX(0%);
+    transition: all .3s ease-in-out;
+}
+
+.nav-menu li a:hover::after {
+    width: 100%;
+}    
+
+.btn {
+    padding: 0.938rem 1.25rem 0.938rem 1.25rem;
+    border: 0.063rem solid #6990df;
+    margin: 1.249rem 0 1.249rem 0;
+    border-radius: 7rem;
+    color:#6990df;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #6990df;
+    color: white;
+}
+
+.nav-toggle {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    right: 7.5rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 75rem){
+    .top-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-logo {
+        padding-top: 1.777rem;
+        padding-bottom: 1.777rem;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .nav-menu li {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .nav-menu li a:hover::after {
+        width: 0;
+    }  
+    .nav-menu li a:hover {
+        color:#6990df;
+    }
+
+    .btn {
+        display: none;
+        justify-content: center;
+        margin:auto;
+        margin-bottom: 1.5rem;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .btn.active {
+        display: flex;
+    }
+}
