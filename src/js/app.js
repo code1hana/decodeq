@@ -1,3 +1,4 @@
+//main, survey
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const btn = document.querySelector('.btn');

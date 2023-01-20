@@ -1,0 +1,43 @@
+.survey-header {
+    display: inline;
+    height: auto;
+}
+
+.survey-header-img {
+    width: 100%;
+}
+
+.survey-header-txt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -18.75rem;
+    color: white;
+}
+
+.survey-header-txt p {
+    margin-bottom: 0;
+}
+
+.link-containor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.survey {
+    padding: 3.75rem;
+    border: 0.063rem solid #d3d3d3;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    margin: 2.5rem;
+}
+
+.survey:hover {
+    background: #6990df;
+    color: white;
+    font-weight: 600;
+}
